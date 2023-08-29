@@ -1,0 +1,10 @@
+<h3 class="text-center">pipes de i18nSelect</h3>
+<hr>
+<div>
+    <select name="" id="" [(ngModel)]="genero">
+        <option value="m">masculino</option>
+        <option value="f"> femenino</option>
+        <option value="otro"> otro</option>
+    </select>
+<p> {{genero | i18nSelect:map}}</p>
+</div>
