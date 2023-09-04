@@ -9,7 +9,7 @@ export class I18nPluralComponent implements OnInit {
   public contador = 0;
   public map = {
     '=0': 'no tiene valor', 
-    '=1': 'el valor es debugger()',
+    '=1': 'el valor es ()',
      '=2': 'elvalor es mayor a 1 y es de  (#)', 
      'other': 'el valor supero al 2,es de (#)'
   }
@@ -20,4 +20,7 @@ export class I18nPluralComponent implements OnInit {
   aumentar() {
     this.contador++
   }
-}
+  restar() {
+    this.contador--
+
+  }}
